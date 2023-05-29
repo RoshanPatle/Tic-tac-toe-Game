@@ -1,0 +1,50 @@
+.gamecontainer{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.gamecontainer .container{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.gamecontainer .gameinfo{
+    height: 400px;
+}
+
+.container{
+    position: relative;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3 , 20vw);
+    grid-template-rows: repeat(3 , 20vw);
+    
+}
+
+.gameinfo h1{
+    
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 4%;
+    font-size: 23px;
+}
+
+
+.gameinfo{
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
